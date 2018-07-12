@@ -1,0 +1,91 @@
+/* CSS PARA INICIO DE SESIÓN */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(images/bg1.jpg) no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+}
+
+.login {
+  width: 320px;
+  height: 420px;
+  background: linear-gradient(to right, rgba(255, 128, 0,.8), rgba(255,0,0,.5));
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login .img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Questrial";
+}
+
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  font-family: "Ubuntu", Arial;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type="text"], .login input[type="contra"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: linear-gradient(to right, rgba(255, 128, 0,1), rgba(255, 128, 0,.6));
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+
+.login a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: #b32400;
+  font-family: "Ubuntu", Arial;
+}
+/* HOVER DE LOS ELEMENTOS; */
+
+.login input[type="submit"]:hover {
+  cursor: pointer;
+  background: rgba(255, 128, 0,1);
+  color: #330a00;
+}
+
+.login a:hover {
+  color: #fff;
+}
