@@ -50,7 +50,7 @@ body {
   margin-bottom: 20px;
 }
 
-.login input[type="text"], .login input[type="contra"] {
+.login input[type="text"], .login input[type="password"] {
   border: none;
   border-bottom: 1px solid #fff;
   background: transparent;
